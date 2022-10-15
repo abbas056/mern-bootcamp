@@ -1,138 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Forms</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <form action="#">
-      <table width="100%">
-        <tbody>
-          <tr align="center">
-            <td><label>Email Address</label></td>
-            <td><input type="email" required /></td>
-            <td><label>Password</label></td>
-            <td><input type="password" required /></td>
-          </tr>
-        </tbody>
-      </table>
-      <fieldset>
-        <legend>Personal Profile</legend>
         <table width="100%">
-          <tbody>
-            <tr>
-              <td><label>Name</label></td>
-              <td><input type="text" required /></td>
-              <td><label>Gender</label></td>
-              <td>
-                <input type="radio" name="gender" value="male" required /> Male
-                <input type="radio" name="gender" value="female" required />
-                Female
-              </td>
-            </tr>
-            <tr>
-              <td><label>Cnic/B-Form No.</label></td>
-              <td>
-                <input type="tel" maxlength="5" size="5" required /> -
-                <input type="tel" maxlength="7" size="7" required /> -
-                <input type="tel" maxlength="1" size="1" required />
-              </td>
-              <td><label>Picture</label></td>
-              <td><input type="file" required /></td>
-            </tr>
-            <tr>
-              <td><label>IUB Registration No.</label></td>
-              <td><input type="text" required /></td>
-              <td><label>Landline No.</label></td>
-              <td><input type="tel" required /></td>
-            </tr>
-            <tr>
-              <td><label>Date Of Birth</label></td>
-              <td><input type="date" required /></td>
-              <td><label>Mobile No.</label></td>
-              <td>
-                +92 - <input type="tel" maxlength="10" size="10" required />
-              </td>
-            </tr>
-            <tr>
-              <td><label>Religion</label></td>
-              <td>
-                <select required>
-                  <option disabled selected>Select</option>
-                  <option>Muslim</option>
-                  <option>Hindu</option>
-                  <option>Christian</option>
-                </select>
-              </td>
-              <td><label>Nationality</label></td>
-              <td><input type="text" required /></td>
-            </tr>
-            <tr>
-              <td><label>Hafiz-e-Quran</label></td>
-              <td>
-                <select required>
-                  <option disabled selected>Select</option>
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              </td>
-              <td><label>Domicile(Province)</label></td>
-              <td>
-                <select required>
-                  <option disabled selected>Select</option>
-                  <option>Punjab</option>
-                  <option>Sindh</option>
-                  <option>KPK</option>
-                  <option>Balochistan</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td>Postel Address</td>
-              <td><textarea rows="10" cols="20" required></textarea></td>
-            </tr>
-          </tbody>
+            <tbody>
+                <tr align="center">
+                    <td><label>Email Address</label></td>
+                    <td><input type="email" required /></td>
+                    <td><label>Password</label></td>
+                    <td><input type="password" required /></td>
+                </tr>
+            </tbody>
         </table>
-      </fieldset>
-      <fieldset>
-        <legend>Father Information</legend>
+        <fieldset>
+            <legend>Personal Profile</legend>
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" required /></td>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male" required /> Male
+                            <input type="radio" name="gender" value="female" required />
+                            Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Cnic/B-Form No.</label></td>
+                        <td>
+                            <input type="tel" maxlength="5" size="5" required /> -
+                            <input type="tel" maxlength="7" size="7" required /> -
+                            <input type="tel" maxlength="1" size="1" required />
+                        </td>
+                        <td><label>Picture</label></td>
+                        <td><input type="file" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>IUB Registration No.</label></td>
+                        <td><input type="text" required /></td>
+                        <td><label>Landline No.</label></td>
+                        <td><input type="tel" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date Of Birth</label></td>
+                        <td><input type="date" required /></td>
+                        <td><label>Mobile No.</label></td>
+                        <td>
+                            +92 - <input type="tel" maxlength="10" size="10" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Religion</label></td>
+                        <td>
+                            <select required>
+                                <option disabled selected>Select</option>
+                                <option>Muslim</option>
+                                <option>Hindu</option>
+                                <option>Christian</option>
+                            </select>
+                        </td>
+                        <td><label>Nationality</label></td>
+                        <td><input type="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Hafiz-e-Quran</label></td>
+                        <td>
+                            <select required>
+                                <option disabled selected>Select</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </td>
+                        <td><label>Domicile(Province)</label></td>
+                        <td>
+                            <select required>
+                                <option disabled selected>Select</option>
+                                <option>Punjab</option>
+                                <option>Sindh</option>
+                                <option>KPK</option>
+                                <option>Balochistan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Postel Address</td>
+                        <td><textarea rows="10" cols="20" required></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Father Information</legend>
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td><label>Father Name</label></td>
+                        <td><input type="text" required /></td>
+                        <td><label>CNIC No.</label></td>
+                        <td>
+                            <input type="tel" maxlength="5" size="5" required /> -
+                            <input type="tel" maxlength="7" size="7" required /> -
+                            <input type="tel" maxlength="1" size="1" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Occupation</label></td>
+                        <td><input type="text" required /></td>
+                        <td><label>Monthly Income</label></td>
+                        <td><input type="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Father Number</label></td>
+                        <td><input type="tel" required /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
         <table width="100%">
-          <tbody>
-            <tr>
-              <td><label>Father Name</label></td>
-              <td><input type="text" required /></td>
-              <td><label>CNIC No.</label></td>
-              <td>
-                <input type="tel" maxlength="5" size="5" required /> -
-                <input type="tel" maxlength="7" size="7" required /> -
-                <input type="tel" maxlength="1" size="1" required />
-              </td>
-            </tr>
-            <tr>
-              <td><label>Occupation</label></td>
-              <td><input type="text" required /></td>
-              <td><label>Monthly Income</label></td>
-              <td><input type="text" required /></td>
-            </tr>
-            <tr>
-              <td><label>Father Number</label></td>
-              <td><input type="tel" required /></td>
-            </tr>
-          </tbody>
+            <tbody>
+                <tr align="center">
+                    <td>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
-      </fieldset>
-      <table width="100%">
-        <tbody>
-          <tr align="center">
-            <td>
-              <button type="reset">Reset</button>
-              <button type="submit">Submit</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
     </form>
-  </body>
+</body>
+
 </html>

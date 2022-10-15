@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form CSS */
+#header {
+  background-color: #e1e1e2;
+  width: 100%;
+  display: inline-block;
+  margin: 20px 0px;
+  text-align: center;
+}
+#section {
+  background-color: #e1e1e2;
+  width: 60%;
+  float: left;
+  height: 500px;
+  display: block;
+}
+#section #article {
+  background-color: #bfbfc5;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 232px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#aside {
+  width: 38%;
+  float: right;
+  height: 500px;
+  background-color: #e1e1e2;
+}
+#footer {
+  background-color: #e1e1e2;
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Zafar CV CSS */
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.container .box{
+  width: 25%;
+  height: 200px;
+  padding: 0px 50px;
+  border-left: 5px solid #681e1e;
+  text-align: justify;
+}
+.container .box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+
+}
+#section2{
+  margin-top: 50px;
+}
+#section2 .box1{
+  float: left;
+  width: 40%;
+  border-left: 5px solid #681e1e;
+  padding: 0px 50px;
+}
+#section2 .box1 h1{
+  text-decoration: underline;
+}
+#section2 .box2{
+  float: right;
+  width: 40%;
+  padding: 0px 50px;
+}
+#section2 .box2 p{
+ background-color: #bfbfc5;
+ width:80px;
+ padding: 10px 10px;
+ border-radius: 5px;
+ color: brown;
+ font-size: 15px;
+ text-align: center;
+}
+
+/* Add User Form */
+h1{
+  color: blue;
+  font-size: 40px;
+}
+.title{
+  font-size: 40px;
+}
+.centertext{
+  text-align: center;
+}
+form{
+  border: 1px solid black;
+  width: 60%;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+label{
+  font-size: 15px;
+}
+form input{
+  padding: 0px 5px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.box{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.label{
+  width: 100px;
+}
+.col1{
+  float: left;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
