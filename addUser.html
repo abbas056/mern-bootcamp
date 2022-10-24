@@ -10,72 +10,80 @@
 </head>
 
 <body>
-    <h1 class="centertext">Add User</h1>
-    <div class="form">
-        <form action="#">
-            <div class="col1">
-                <div class="box">
-                    <div class="label">
-                        <label>Name</label>
-                    </div>
-                    <input type="text" name="name" id="name" maxlength="20" placeholder="Enter your name here">
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Address</label>
-                    </div>
-                    <input type="text" name="address" id="address" maxlength="50" placeholder="Enter your address here">
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Cell No</label>
-                    </div>
-                    <input type="text" name="cellno" id="address" maxlength="15" placeholder="Enter cell no">
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Gender</label>
-                    </div>
-                    <select value="">
-                        <option selected disabled>Select</option>
-                        <option name="male" id="male">Male</option>
-                        <option name="male" id="male">Female</option>
-                        <option name="male" id="male">Other</option>
-                    </select>
-                </div>
-        
-            </div>
-            <div class="col2">
-                <div class="box">
-                    <div class="label">
-                        <label>CNIC</label>
-                    </div>
-                    <input type="text" maxlength="5" size="1" required placeholder="*****"/> -
-                    <input type="text" maxlength="7" size="4" required placeholder="*******"/> -
-                    <input type="text" maxlength="1" size="1" required placeholder="*"/>                
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Address</label>
-                    </div>
-                    <input type="text" name="address" id="address" maxlength="50" placeholder="Enter your address here">
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Cell No</label>
-                    </div>
-                    <input type="text" name="cellno" id="address" maxlength="15" placeholder="Enter cell no">
-                </div>
-                <div class="box">
-                    <div class="label">
-                        <label>Gender</label>
-                    </div>
-                    <input type="radio" name="radio" id="radio">
-                    <input type="radio" name="radio" id="radio">
-                </div>
-            </div>
-        </form>
-    </div>
-</body>
+    <html>
 
-</html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- <h1>Add User</h1> -->
+        <div class="Formcontainer">
+            <h1>Add User</h1>
+            <form action="#">
+                <div class="box">
+                    <label for="Name" class="label"> Name: </label>
+                    <div class="input">
+                        <input type="text" name="name" placeholder="Name" class="textBox" required>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="title" class="label"> Title: </label>
+                    <div class="input">
+                        <input type="text" name="title" placeholder="Add Title" class="textBox" required>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="title" class="label"> Company: </label>
+                    <div class="input">
+                        <select name="company" id="company" class="selectBox">
+                            <option selected disabled>Select</option>
+                            <option>Employer</option>
+                            <option>Businesman</option>
+                            <option>Student</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="Address" class="label"> Address: </label>
+                    <div class="input">
+                        <input type="text" name="address" placeholder="Address" class="textBox" required>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="phone" class="label"> Phone No: </label>
+                    <div class="input">
+                        <input type="text" name="phoneNo" maxlength="15" placeholder="Phone No." class="textBox"
+                            required>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="cnic" class="label"> Cnic No: </label>
+                    <div class="input">
+                        <input type="text" name="cnic" maxlength="5" placeholder="*****" class="textBoxCnic" required>
+                        <input type="text" name="cnic" maxlength="7" placeholder="*****" class="textBoxCnic" required>
+                        <input type="text" name="cnic" maxlength="1" placeholder="*****" class="textBoxCnic" required>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="email" class="label "> Email ID: </label>
+                    <div class="input">
+                        <input type="email" name="email" placeholder="Email Id" class="textBox" required>
+                    </div>
+                </div>
+                <div class="box radio">
+                    <label for="gender" class="label "> Gender: </label>
+                    <input type="radio" name="Gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="Gender" value="Female" required> Female
+                </div>
+                <div class="box">
+                    <input type="Submit" name="Submit" class="submit" value="Add User">
+                    <input type="reset" name="reset" class="reset">
+                </div>
+            </form>
+        </div>
+    </body>
+
+    </html>
